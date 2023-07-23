@@ -1,0 +1,53 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Decider</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <link href='https://fonts.googleapis.com/css?family=Holtwood One SC|Archivo Narrow|Archivo' rel='stylesheet'>
+  <div class="grid-container">
+
+    <div class="grid-item item1">
+      <h1>Want to eat pizza🍕</h1>
+      <p>But from where???😋</p>
+    </div>
+
+    <div class="grid-item item2">
+      <div class="pizza-container">
+        <div class="pizza">
+          <div class="basil">
+            <div class="leaf"></div>
+          </div>
+          <div class="onions"></div>
+          <div class="olives"></div>
+          <div class="pepperonis"></div>
+          <div class="slices">
+            <div class="slice slice-1"></div>
+            <div class="slice slice-2"></div>
+            <div class="slice slice-3"></div>
+            <div class="slice slice-4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-item item3">
+      <div id="pizza-info">
+        <h3 id="name" class="name"></h3>
+        <p id="address" class="address"></p>
+        <p id="rating" class="rating"></p>
+        </div>
+    </div>
+
+    <div class="grid-item item4">
+      <button type="button" id="btn-id" class="btn" onclick="toggleText()">Decide<br>For Me</button>
+      <br><br>
+      <h2>You should try...</h2>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  </body>
+</html>
